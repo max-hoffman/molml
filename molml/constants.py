@@ -1,5 +1,6 @@
 ELE_TO_NUM = {
     'H': 1,
+    'B': 5,
     'C': 6,
     'N': 7,
     'O': 8,
@@ -7,6 +8,10 @@ ELE_TO_NUM = {
     'P': 15,
     'S': 16,
     'Cl': 17,
+    'As': 33,
+    'Se': 34,
+    'Br': 35
+
 }
 NUM_TO_ELE = {y: x for x, y in ELE_TO_NUM.items()}
 
@@ -49,6 +54,9 @@ BOND_LENGTHS = {
         "Ar": 0.945,
         "1":   1.07,
     },
+    "Br": {
+
+    }
 }
 # From wiki
 ELECTRONEGATIVITY = {
@@ -60,4 +68,7 @@ ELECTRONEGATIVITY = {
     "O": 3.44,
     "P": 2.19,
     "S": 2.58,
+    "Br": 2.96,
+    "Se": 2.55,
+    "As": 2.18
 }
